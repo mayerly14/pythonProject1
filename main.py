@@ -5,7 +5,6 @@
 
 
 def main():
-
     divisibles=list()
     for x in range(0,1001,8):
         divisibles.append(x)

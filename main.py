@@ -6,10 +6,10 @@
 
 def main():
 
-    parells=list()
-    for x in range(0,31,2):
-        parells.append(x)
-    print(parells)
+    divisibles=list()
+    for x in range(0,1001,8):
+        divisibles.append(x)
+    print(divisibles)
 
 
 if __name__ == '__main__':

@@ -5,18 +5,12 @@
 
 
 def main():
-    num= int(input("Introdueix un nombre natural: "))
-    while num < 1:
-        num=int(input("Error. Vuelve a introducir un valor natural: "))
-    i=0
-    sum=0
-    while sum+i < num:
-        sum = sum + i
-        print("El número es", i)
-        i+= 1
-    print("Y la suma total és:",sum)
+
+    parells=list()
+    for x in range(0,31,2):
+        parells.append(x)
+    print(parells)
+
 
 if __name__ == '__main__':
     main()
-
-
